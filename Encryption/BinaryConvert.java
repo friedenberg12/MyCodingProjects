@@ -1,5 +1,5 @@
 /*
- *  Compression Binary
+ *  String to Binary Convert
  *
  *  (c)2014 by David Friedenberg
  *

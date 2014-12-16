@@ -1,5 +1,5 @@
 /*
- *  Compression Binary
+ *  Random Key Encryption
  *
  *  (c)2014 by David Friedenberg
  *

@@ -1,5 +1,5 @@
 /*
- *  Compression Binary
+ *  Password Encryption
  *
  *  (c)2014 by David Friedenberg
  *
