@@ -1,3 +1,12 @@
+/*
+ *  Compression
+ *
+ *  (c)2014 by David Friedenberg
+ *
+ *  This code was written by David Friedenberg
+ *  for public use. Have fun!
+*/
+
 import java.util.Scanner;
 import java.io.*;
 

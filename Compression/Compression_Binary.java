@@ -1,3 +1,12 @@
+/*
+ *  Compression Binary
+ *
+ *  (c)2014 by David Friedenberg
+ *
+ *  This code was written by David Friedenberg
+ *  for public use. Have fun!
+*/
+
 import java.io.File;
 import java.io.UnsupportedEncodingException;
 import java.io.FileNotFoundException;
