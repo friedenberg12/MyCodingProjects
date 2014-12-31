@@ -8,8 +8,8 @@ This is where I keep all of the coding projects I'm currently working on. Many o
 Project Listing
 ================
 
-1. This is a test
-2. Test Words
-3. Listing Stuff
+1. Java Compression
+2. Java Encryption
+3. Processing Projects
 
 ================
