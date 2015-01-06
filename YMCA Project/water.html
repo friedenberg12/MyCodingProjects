@@ -5,7 +5,7 @@
       <script type="text/javascript">
            var stage, s, n=40, clicked = false, calm;
            var rad = Math.round(n/12);
-           var donated = 0;
+           var donated = 200000;
            var amount;
            
            var h = [];  // buffers for heights
@@ -58,14 +58,18 @@
             function he(i)   { return h[(i+n)%n]; }	// "cycled" access to array 'h'
             
             function onMD(e) { clicked = true; onMM(); }
-            function onMU(e) { clicked = false; }
+            function onMU(e) { clicked = false;
+                               if(stage.mouseX/stage.stageWidth>0.52351 && stage.mouseX/stage.stageWidth<0.76646 && stage.mouseY/stage.stageHeight>0.80530 && stage.mouseY/stage.stageHeight<0.94081) {
+                                 document.location.href = "https://ops1.operations.daxko.com/features/onlinegiving/donationdetails.aspx?cid=2094";
+                               }
+            }
             function onMM(e)
             {
                  var i = Math.round(n*stage.mouseX/stage.stageWidth);
                  if(clicked) {
-                  donated = donated+10000;
-                  amount = map_range(donated,0,300000,1,0);
-                  calm = stage.stageHeight*amount;
+                  //donated = donated+10000;
+                  //amount = map_range(donated,0,300000,1,0);
+                  //calm = stage.stageHeight*amount;
                   if(i>rad && i<n-rad) {
                     pushAt(i);
                   }
