@@ -11,8 +11,11 @@ import java.io.File;
 
 public class Test {
   public static void main(String[] args) {
-    File myFile = new File("helloworld.txt.comp");
+    File myFile = new File("test.txt");
     Compression myCmprsFile = new Compression(myFile);
-    myCmprsFile.decompressFile();
+    long start = System.currentTimeMillis();
+    myCmprsFile.compress();
+    long end = System.currentTimeMillis();
+    System.out.println((end - start)/1000.0);
   }
 }
