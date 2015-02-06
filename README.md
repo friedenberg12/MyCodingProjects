@@ -11,5 +11,8 @@ Project Listing
 2. Java Encryption
 3. Processing Projects
 4. YMCA Donation Project
+5. LimitingRatioRecursion.java
+6. SuccessivePrimes.java
+7. ChessBoard.java
 
 ================
